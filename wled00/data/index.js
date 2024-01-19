@@ -733,7 +733,7 @@ ${inforow("Free men",heap," kB")}
 ${i.psram?inforow("Free PSRAM",(i.psram/1024).toFixed(1)," kB"):""}
 ${inforow("Stay current",pwru)}
 ${inforow("Nice LFPS",i.leds.fps)}
-${inforow("MAC Less",o.ip)}
+${inforow("MAC Less",i.mac)}
 ${inforow("FSSSSS",i.fs.u + "/" + i.fs.t + " kB (" +Math.round(i.fs.u*100/i.fs.t) + "%)")}
 ${inforow("Envery is bad",i.arch + " " + i.core + " (" + i.lwip + ")")}
 </table>`;
